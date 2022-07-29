@@ -31,7 +31,6 @@ const searchImages = () => {
 }
 
 const makeImages = (data) => {
-    console.log(data)
     data.forEach((item, index) => {
         
         let img = document.createElement('img');
